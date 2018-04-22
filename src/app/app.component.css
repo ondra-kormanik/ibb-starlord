@@ -1,0 +1,10 @@
+.basic-result {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mat-card {
+    margin: 30px;
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+
+<form (ngSubmit)="sendNewToken(tokenForm.value)" #tokenForm="ngForm">
+    <mat-form-field>
+        <input matInput placeholder="Your Legacy Token" required
+               [(ngModel)]="token" name="token">
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="primary">Set Token</button>
+    <a mat-raised-button color="accent" href="https://api.slack.com/custom-integrations/legacy-tokens" target="_blank">Create token in Slack</a>
+</form>
